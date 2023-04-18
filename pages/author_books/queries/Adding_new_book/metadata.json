@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "books",
+    "pageId": "author_books",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -55,7 +55,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "books_Adding_new_book",
+  "id": "author_books_Adding_new_book",
   "deleted": false,
   "gitSyncId": "643e928d687d2c3120d3d55e_643e97a7eefe5b1f63f7766e"
 }

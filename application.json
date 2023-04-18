@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "books",
+      "id": "author_books",
       "isDefault": true
+    },
+    {
+      "id": "reader_bookshelf",
+      "isDefault": false
     }
   ],
   "viewMode": false,
