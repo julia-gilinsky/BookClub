@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 700,
+          "bottomRow": 670,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -35,15 +35,15 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 6,
-              "bottomRow": 31,
+              "topRow": 42,
+              "bottomRow": 67,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 16.84375,
-              "leftColumn": 7,
+              "leftColumn": 4,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -125,7 +125,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "delete_button",
-                      "onClick": "{{Delete_comment.run()}}",
+                      "onClick": "{{Delete_comment.run(() => Get_comments.run(), () => {})}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -300,7 +300,7 @@
               "key": "3xwhm6rppy",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 31,
+              "rightColumn": 28,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "3ok8ajzh4v",
               "minWidth": 450,
@@ -309,10 +309,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 6,
+              "originalTopRow": 42,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 31,
+              "originalBottomRow": 67,
               "minDynamicHeight": 10
             },
             {
@@ -320,7 +320,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 42,
+              "topRow": 7,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -358,7 +358,7 @@
                 }
               ],
               "needsHeightForContent": true,
-              "leftColumn": 7,
+              "leftColumn": 3,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -409,7 +409,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 70,
+              "bottomRow": 35,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -599,7 +599,7 @@
               "key": "kdm4q1r2bh",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 41,
+              "rightColumn": 37,
               "textSize": "0.875rem",
               "widgetId": "3baxh2y5r1",
               "minWidth": 450,
@@ -624,8 +624,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 37,
-              "bottomRow": 41,
+              "topRow": 2,
+              "bottomRow": 6,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -634,7 +634,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 16.84375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 7,
+              "leftColumn": 3,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -651,7 +651,7 @@
               "text": "List of comments",
               "key": "cxgnp1s4wt",
               "isDeprecated": false,
-              "rightColumn": 23,
+              "rightColumn": 19,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "fvu82ikjtq",

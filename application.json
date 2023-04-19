@@ -11,6 +11,10 @@
     {
       "id": "reader_comments",
       "isDefault": false
+    },
+    {
+      "id": "author_meta",
+      "isDefault": false
     }
   ],
   "viewMode": false,
