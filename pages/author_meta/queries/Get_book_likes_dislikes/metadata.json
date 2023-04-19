@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Get_book_likes",
+    "name": "Get_book_likes_dislikes",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -53,7 +53,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "author_meta_Get_book_likes",
+  "id": "author_meta_Get_book_likes_dislikes",
   "deleted": false,
   "gitSyncId": "643f161cbdcba75d19033ad2_6440075e26734a070716a94d"
 }
