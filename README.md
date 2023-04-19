@@ -13,3 +13,10 @@ Introducing BookClub, a comprehensive library database that aims to revolutioniz
 
 ## To run
 - Create a docker network to allow the containers to communicate with each other. 
+- To start docker containers: 
+   - Clone repo to current machine
+   - Type docker compose up to start the container
+
+
+## Project Video 
+https://youtu.be/Skf9JiZg2E8
