@@ -218,7 +218,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "new_book_title",
+                      "widgetName": "title",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -277,7 +277,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "new_book_page_length",
+                      "widgetName": "num_pages",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -336,7 +336,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "new_book_chapter_length",
+                      "widgetName": "num_chapters",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -395,7 +395,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "new_book_language_code",
+                      "widgetName": "language_code",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -454,7 +454,7 @@
                     },
                     {
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-                      "widgetName": "new_book_content",
+                      "widgetName": "content",
                       "displayName": "Rich Text Editor",
                       "iconSVG": "/static/media/icon.b35e139c93907b5eab3c68c1db842330.svg",
                       "labelText": "Content:",

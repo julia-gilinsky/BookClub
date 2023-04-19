@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "reader_bookshelf",
-    "slug": "reader-bookshelf",
+    "name": "reader_user",
+    "slug": "reader-user",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 650,
+          "bottomRow": 480,
           "containerStyle": "none",
           "snapRows": 112,
           "parentRowSpace": 1,
@@ -35,15 +35,15 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 19,
-              "bottomRow": 65,
+              "topRow": 2,
+              "bottomRow": 48,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 23.421875,
-              "leftColumn": 3,
+              "leftColumn": 2,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -98,7 +98,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Add to bookshelf",
+                      "text": "Books",
                       "key": "fg011tlgin",
                       "isDeprecated": false,
                       "rightColumn": 25.5,
@@ -518,7 +518,7 @@
               "key": "cg1kwg0oqe",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 48,
+              "rightColumn": 47,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "fz1dh3r8k1",
               "minWidth": 450,
@@ -527,10 +527,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 19,
+              "originalTopRow": 2,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 65,
+              "originalBottomRow": 48,
               "minDynamicHeight": 10
             }
           ]
@@ -538,7 +538,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "reader_bookshelf_Get_books",
+              "id": "reader_user_Get_books",
               "name": "Get_books",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -549,7 +549,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "reader_bookshelf",
+        "id": "reader_user",
         "deleted": false,
         "policies": [],
         "userPermissions": []

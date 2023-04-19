@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "reader_bookshelf",
+    "pageId": "reader_user",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -59,7 +59,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "reader_bookshelf_Add_to_bookshelf",
+  "id": "reader_user_Add_to_bookshelf",
   "deleted": false,
   "gitSyncId": "643f161cbdcba75d19033ad2_643f2320bdcba75d19033ae3"
 }
