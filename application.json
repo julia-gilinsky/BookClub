@@ -2,10 +2,14 @@
   "pages": [
     {
       "id": "author_books",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "reader_user",
+      "isDefault": true
+    },
+    {
+      "id": "reader_comments",
       "isDefault": false
     }
   ],
