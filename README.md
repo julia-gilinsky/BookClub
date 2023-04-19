@@ -1,11 +1,15 @@
-![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
+# Book Club
 
-This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
 
-![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/images/integrations.png)
+## Overview
+Introducing BookClub, a comprehensive library database that aims to revolutionize the way people read, publish, and rate books. BookClub is designed to be a one-stop shop for all your literary needs, offering a vast selection of books across various genres, both old and new, from individual authors not found in mainstream publishing. The platform also features a rating and review system, allowing users to share their thoughts and opinions on the books they have read, and discover new titles based on recommendations from other users. In addition to being a rental service, BookClub also serves as a social media platform for individual authors. Authors can create their profiles, collaborate with other authors, and even contribute to each other’s work. This collaborative feature is designed to foster a sense of community and promote creativity among writers, which is often lacking in the traditional publishing industry. Finally, BookClub aims to make the process of publishing books more accessible and affordable for aspiring authors. Whether someone is looking to read or publish their own novel, BookClub provides a convenient and accessible solution for all book lovers. 
 
-### [Github](https://github.com/appsmithorg/appsmith) • [Docs](https://docs.appsmith.com/?utm_source=github&utm_medium=social&utm_content=appsmith_docs&utm_campaign=null&utm_term=appsmith_docs) • [Community](https://community.appsmith.com/) • [Tutorials](https://github.com/appsmithorg/appsmith/tree/update/readme#tutorials) • [Youtube](https://www.youtube.com/appsmith) • [Discord](https://discord.gg/rBTTVJp)
+### Features
+- Return all information about a given user
+- Users can follow and be followed by other users
+- Access books and their relevant information in the system
+- Return dates a user has started, finished and currently reading a book
+- Return users' comments, likes, and dislikes on books
 
-##### You can visit the application using the below link
-
-###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](https://app.appsmith.com/applications/64385ac626013158789b23e4/pages/64385ac626013158789b23e7) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://app.appsmith.com/applications/64385ac626013158789b23e4/pages/64385ac626013158789b23e7/edit)
+## To run
+- Create a docker network to allow the containers to communicate with each other. 
