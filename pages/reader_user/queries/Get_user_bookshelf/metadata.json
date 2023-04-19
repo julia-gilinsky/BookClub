@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Get_book_likes",
+    "name": "Get_user_bookshelf",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/b/books/{{book_table.selectedRow.book_id}}/like-dislike-count"
+        "url": "web:4000/u/users/{{user_list_for_bookshelf.selectedRow.user_id}}/bookshelf"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "author_meta",
+    "pageId": "reader_user",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -46,14 +46,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "book_table.selectedRow.book_id"
+      "user_list_for_bookshelf.selectedRow.user_id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "author_meta_Get_book_likes",
+  "id": "reader_user_Get_user_bookshelf",
   "deleted": false,
-  "gitSyncId": "643f161cbdcba75d19033ad2_6440075e26734a070716a94d"
+  "gitSyncId": "643f161cbdcba75d19033ad2_64400bed26734a070716a953"
 }
