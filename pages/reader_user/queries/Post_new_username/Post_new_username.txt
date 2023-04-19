@@ -1,1 +1,2 @@
-{{username.inputText}}
+{{
+{username: ChangeUsernameForm.data.username}}}
